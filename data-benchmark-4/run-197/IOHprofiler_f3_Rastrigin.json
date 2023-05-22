@@ -1,0 +1,16 @@
+{
+	"version": "0.3.6", 
+	"suite": "unknown_suite", 
+	"function_id": 3, 
+	"function_name": "Rastrigin", 
+	"maximization": false, 
+	"algorithm": {"name": "SP-CMA[10]-INFO(500)", "info": "test of IOHexperimenter in python"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 5,
+		"path": "data_f3_Rastrigin/IOHprofiler_f3_DIM5.dat",
+		"runs": [
+			{"instance": 9, "evals": 80300, "best": {"evals": 80245, "y": 3.544756431694913e-07, "x": [0.8352087671612551, 3.9207783498398614, 1.7152159637624782, 2.8783985080204517, -1.0079970436504173]}}
+		]}
+	]
+}
