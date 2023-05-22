@@ -1,0 +1,16 @@
+{
+	"version": "0.3.6", 
+	"suite": "unknown_suite", 
+	"function_id": 4, 
+	"function_name": "BuecheRastrigin", 
+	"maximization": false, 
+	"algorithm": {"name": "ModCMA", "info": "test of IOHexperimenter in python"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 5,
+		"path": "data_f4_BuecheRastrigin/IOHprofiler_f4_DIM5.dat",
+		"runs": [
+			{"instance": 6, "evals": 50000, "best": {"evals": 8362, "y": 6.964708361833961, "x": [1.6491494638944058, -2.2101731427726525, 1.7087633838852703, -3.8943999990816183, -0.016863555746322974]}}
+		]}
+	]
+}

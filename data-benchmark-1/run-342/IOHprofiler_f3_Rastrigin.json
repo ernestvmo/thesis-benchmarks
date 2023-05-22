@@ -1,0 +1,16 @@
+{
+	"version": "0.3.6", 
+	"suite": "unknown_suite", 
+	"function_id": 3, 
+	"function_name": "Rastrigin", 
+	"maximization": false, 
+	"algorithm": {"name": "ModCMA", "info": "test of IOHexperimenter in python"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 5,
+		"path": "data_f3_Rastrigin/IOHprofiler_f3_DIM5.dat",
+		"runs": [
+			{"instance": 8, "evals": 4200, "best": {"evals": 4130, "y": 4.893693291655399e-07, "x": [-1.5728071978052913, -0.8207856479839748, -0.1704132190216759, 3.117607160623758, 2.944011297857027]}}
+		]}
+	]
+}
