@@ -1,0 +1,16 @@
+{
+	"version": "0.3.6", 
+	"suite": "unknown_suite", 
+	"function_id": 4, 
+	"function_name": "BuecheRastrigin", 
+	"maximization": false, 
+	"algorithm": {"name": "SP-CMA[20]-LHS-SVMi", "info": "test of IOHexperimenter in python"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 20,
+		"path": "data_f4_BuecheRastrigin/IOHprofiler_f4_DIM20.dat",
+		"runs": [
+			{"instance": 6, "evals": 1000000, "best": {"evals": 849638, "y": 13.929421761487026, "x": [1.649149467068545, -3.0295999984948625, 2.3047999993686945, -3.8944000028221852, -0.1645292363270733, -1.8304588927739662, 2.432157286835532, 0.3240000000497116, 1.0759999955540456, -2.9451680131971787, 0.3093065941868555, -1.236418001659507, 0.5514231035260273, 3.948000000626952, 2.16387177057605, -0.5575999991405551, 2.200216258804975, 3.71839999868348, 0.9775999980581563, -3.514674343054667]}}
+		]}
+	]
+}
