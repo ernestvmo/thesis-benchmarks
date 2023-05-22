@@ -1,0 +1,16 @@
+{
+	"version": "0.3.6", 
+	"suite": "unknown_suite", 
+	"function_id": 4, 
+	"function_name": "BuecheRastrigin", 
+	"maximization": false, 
+	"algorithm": {"name": "SP-CMA[10]-GAUSSIAN", "info": "test of IOHexperimenter in python"},
+	"attributes": ["evaluations", "raw_y"],
+	"scenarios": [
+		{"dimension": 20,
+		"path": "data_f4_BuecheRastrigin/IOHprofiler_f4_DIM20.dat",
+		"runs": [
+			{"instance": 1, "evals": 1000000, "best": {"evals": 999592, "y": 19.89916602884667, "x": [2.3407993489875905, 2.2999996516606918, 0.5666011342366614, -0.1465043063289675, 1.4642707229839385, 3.751140696098043, 2.54719992265509, 2.598400028903915, 1.1357816785673363, -0.5627682736814161, 2.178906728014727, -3.7840001735280286, -0.34217660470996314, -2.9607999752962, 0.9710716293776788, -3.047015020878333, 0.33919988823689423, 2.947999959420311, 2.5026427614032047, 1.8199999006631993]}}
+		]}
+	]
+}
