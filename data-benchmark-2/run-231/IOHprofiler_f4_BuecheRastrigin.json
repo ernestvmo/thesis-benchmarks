@@ -4,13 +4,13 @@
 	"function_id": 4, 
 	"function_name": "BuecheRastrigin", 
 	"maximization": false, 
-	"algorithm": {"name": "SP-CMA[20]-LHS", "info": "test of IOHexperimenter in python"},
+	"algorithm": {"name": "SP-CMA[50]-UNIF", "info": "test of IOHexperimenter in python"},
 	"attributes": ["evaluations", "raw_y"],
 	"scenarios": [
-		{"dimension": 20,
-		"path": "data_f4_BuecheRastrigin/IOHprofiler_f4_DIM20.dat",
+		{"dimension": 5,
+		"path": "data_f4_BuecheRastrigin/IOHprofiler_f4_DIM5.dat",
 		"runs": [
-			{"instance": 4, "evals": 1000000, "best": {"evals": 811165, "y": 19.89917106622758, "x": [2.1235494680325377, -2.295199999048584, 1.7831999989149394, 3.0358958545212875, 2.3178707645728935, 2.876966825681747, -0.5950427088675903, -1.393130179018388, 1.6677819012058217, 1.2160478195766224, 3.178906596626488, 1.5799999996493346, 3.603999998468002, -1.2631758505793917, -0.3791152248819185, -3.2760000003467358, 0.6961737425867978, 1.8844709317727293, 3.2282428302142776, -3.2136000001647456]}}
+			{"instance": 4, "evals": 100000, "best": {"evals": 21015, "y": 7.959667418927243, "x": [1.1641575777226079, -1.4757731460148609, 1.1871633830488448, 3.503508380996266, 2.8429256582587437]}}
 		]}
 	]
 }

@@ -4,13 +4,13 @@
 	"function_id": 3, 
 	"function_name": "Rastrigin", 
 	"maximization": false, 
-	"algorithm": {"name": "SP-CMA[10]-LHS", "info": "test of IOHexperimenter in python"},
+	"algorithm": {"name": "SP-CMA[10]-SOBOL", "info": "test of IOHexperimenter in python"},
 	"attributes": ["evaluations", "raw_y"],
 	"scenarios": [
-		{"dimension": 20,
-		"path": "data_f3_Rastrigin/IOHprofiler_f3_DIM20.dat",
+		{"dimension": 5,
+		"path": "data_f3_Rastrigin/IOHprofiler_f3_DIM5.dat",
 		"runs": [
-			{"instance": 3, "evals": 1000000, "best": {"evals": 491812, "y": 8.954631513839576, "x": [-2.1783999975774937, -0.017493291031483983, 0.244800002208984, 3.990345383095682, -4.439729234083122, -3.2432000013699587, -4.315042707648854, 2.9720396232237327, -3.3426319411016885, -1.9512000034510186, 3.2608000015322482, -2.297600000339108, -3.858176894381354, 0.22624188219547314, -2.067199999862515, -0.3503999997867757, -0.44719999954669337, 3.8480000015711866, 3.832881716918449, -0.9111999976621171]}}
+			{"instance": 3, "evals": 500000, "best": {"evals": 87641, "y": 0.9949590570932891, "x": [-2.1783999998129002, -0.9831999994658333, 0.24479999900601151, 3.088800000646573, -3.914674341146997]}}
 		]}
 	]
 }

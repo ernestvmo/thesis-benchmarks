@@ -4,13 +4,13 @@
 	"function_id": 3, 
 	"function_name": "Rastrigin", 
 	"maximization": false, 
-	"algorithm": {"name": "SP-CMA[10]-LHS", "info": "test of IOHexperimenter in python"},
+	"algorithm": {"name": "SP-CMA[20]-GAUSSIAN", "info": "test of IOHexperimenter in python"},
 	"attributes": ["evaluations", "raw_y"],
 	"scenarios": [
 		{"dimension": 5,
 		"path": "data_f3_Rastrigin/IOHprofiler_f3_DIM5.dat",
 		"runs": [
-			{"instance": 12, "evals": 361100, "best": {"evals": 361016, "y": 1.1191683583499373e-06, "x": [3.5160495742286177, 3.6120273629713027, 3.8552045018561802, 0.8520084945095221, 0.554389611628712]}}
+			{"instance": 11, "evals": 115800, "best": {"evals": 115800, "y": 5.540317533404552e-07, "x": [-2.582379713765024, -2.2759774627097396, -2.088812604621276, 0.9328131352102919, 1.6767983429223678]}}
 		]}
 	]
 }
