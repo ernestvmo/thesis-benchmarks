@@ -1,16 +1,1 @@
-{
-	"version": "0.3.6", 
-	"suite": "unknown_suite", 
-	"function_id": 3, 
-	"function_name": "Rastrigin", 
-	"maximization": false, 
-	"algorithm": {"name": "SP-CMA[50]", "info": "test of IOHexperimenter in python"},
-	"attributes": ["evaluations", "raw_y"],
-	"scenarios": [
-		{"dimension": 20,
-		"path": "data_f3_Rastrigin/IOHprofiler_f3_DIM20.dat",
-		"runs": [
-			{"instance": 10, "evals": 400000, "best": {"evals": 16723, "y": 4.974795285466454, "x": [-3.251200003535362, -1.4576000009553678, -2.695999998540087, -0.8263999989781382, 3.7280519828249408, -2.962400997006145, 3.7040000017129486, 0.3248799831742621, -0.6064000033804878, 2.11919999995115, 0.8671999964564155, 2.2755819960762045, 2.450399998322831, -1.8537581164520076, -2.336000002098695, 0.7495999995685297, 0.8767999998743532, -2.4176000000011575, -2.243999998997576, -3.306399999697916]}}
-		]}
-	]
-}
+{"version": "0.3.6", "suite": "unknown_suite", "function_id": 3, "function_name": "Rastrigin", "maximization": false, "algorithm": {"name": "SP-CMA[20]-IPOP(500x.1)", "info": "test of IOHexperimenter in python"}, "attributes": ["evaluations", "raw_y"], "scenarios": [{"dimension": 5, "path": "data_f3_Rastrigin/IOHprofiler_f3_DIM5.dat", "runs": [{"instance": 3, "evals": 48400, "best": {"evals": 48340, "y": 9.171466448040909e-07, "x": [-2.178393696233322, -0.9832075157486556, 0.24480756968361006, 3.08882434031466, -3.6048100793108735]}}]}]}
